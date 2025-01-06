@@ -1,0 +1,23 @@
+{
+  "name": "burnermarket-shopify-theme",
+  "version": "1.0.0",
+  "description": "Custom Shopify theme for BurnerMarket",
+  "main": "index.js",
+  "scripts": {
+    "dev": "shopify theme dev",
+    "push": "shopify theme push",
+    "pull": "shopify theme pull",
+    "lint": "eslint .",
+    "build": "shopify theme build",
+    "test": "jest"
+  },
+  "keywords": ["shopify", "theme", "burnermarket"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@shopify/cli": "^3.0.0",
+    "@shopify/theme-dev-kit": "^1.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  }
+} 
